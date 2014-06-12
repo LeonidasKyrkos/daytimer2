@@ -26,26 +26,8 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('#titlediv').delay(800).fadeIn(1000);
     $('#thesun').delay(800).fadeIn(500);
+    $('#thesea').delay(800).fadeIn(500);
 });
-
-
-/*$(document).ready(function(){
-
-    var x = document.getElementById('thesun');
-    var date = new Date();
-    var hour = date.getHours();
-    var total = 86400000;
-    var minutes = date.getMinutes() * 60 * 1000;
-    var remaining = total - ((hour * 60 * 60 * 1000) + minutes);
-    var position = (remaining / total) * 100;
-
-    x.style.right = position + '%';
-
-    $('#thesun').animate({
-    right: "0%",
-    }, remaining);
-
-})*/
 
 $(document).ready(function(){
 

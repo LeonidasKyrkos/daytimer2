@@ -94,7 +94,9 @@ body, html {
 .pagecontainer {
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: #badeff;
+  background-image: -webkit-linear-gradient(top, #badeff, #2696ff);
+  background-image: linear-gradient(to bottom,#badeff, #2696ff);
   overflow: hidden; }
 
 .sitewrapper {

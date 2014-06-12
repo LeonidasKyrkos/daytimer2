@@ -12,7 +12,8 @@ body, html {
 .pagecontainer {
 	width: 100%;
 	height: 100%;
-	background-color: $defaultprimarycolour;
+	//background-color: $defaultprimarycolour;
+	@include linear-gradient(to bottom, #badeff, #2696ff);
 	overflow: hidden;
 }
 
